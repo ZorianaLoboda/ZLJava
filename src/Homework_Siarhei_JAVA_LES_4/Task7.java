@@ -13,7 +13,7 @@ package Homework_Siarhei_JAVA_LES_4;
 
 import java.util.Scanner;
 
-public class Homework7 {
+public class Task7 {
     public static void main(String[] args) {
         Scanner myFavScanner = new Scanner(System.in);
         System.out.println("Виберіть програму");

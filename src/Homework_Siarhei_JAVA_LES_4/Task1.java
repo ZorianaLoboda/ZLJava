@@ -14,7 +14,7 @@ string4 = Что еще нужно?
 package Homework_Siarhei_JAVA_LES_4;
 
 import java.util.Scanner;
-public class Homework1 {
+public class Task1 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

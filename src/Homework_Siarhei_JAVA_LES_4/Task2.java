@@ -6,7 +6,7 @@
 package Homework_Siarhei_JAVA_LES_4;
 
 import java.util.Scanner;
-public class Homework2 {
+public class Task2 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

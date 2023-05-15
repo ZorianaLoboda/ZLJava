@@ -12,9 +12,7 @@ package Homework_Siarhei_JAVA_LES_4;
 import java.util.Date;
 import java.util.Scanner;
 
-import static java.time.temporal.TemporalQueries.localDate;
-
-public class Homework3 {
+public class Task3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Введіть ваш рік народження:");

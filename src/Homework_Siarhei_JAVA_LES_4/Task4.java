@@ -11,7 +11,7 @@ package Homework_Siarhei_JAVA_LES_4;
 
 import java.util.Scanner;
 
-public class Homework4 {
+public class Task4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Введіть два числа");
