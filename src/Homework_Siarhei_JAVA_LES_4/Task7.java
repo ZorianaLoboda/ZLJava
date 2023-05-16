@@ -18,16 +18,16 @@ public class Task7 {
         Scanner myFavScanner = new Scanner(System.in);
         System.out.println("Виберіть програму");
         String program = myFavScanner.nextLine();
-        switch (program) {
-            case ("IntelliJ IDEA"):
-            case ("Git"):
-            case ("Java"):
+        switch (program.toUpperCase().trim()) {
+            case ("INTELLIJ IDEA"):
+            case ("GIT"):
+            case ("JAVA"):
                 System.out.println("Виберіть ОС");
                 String os = myFavScanner.nextLine();
-                switch (os) {
-                    case ("Linux"):
-                    case ("macOS"):
-                    case ("Windows"):
+                switch (os.toUpperCase().trim()) {
+                    case ("LINUX"):
+                    case ("MACOS"):
+                    case ("WINDOWS"):
                         System.out.println("Посилання на завантаження " + program);
                     break;
                     default:
